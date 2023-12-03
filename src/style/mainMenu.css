@@ -1,0 +1,38 @@
+.mainMenu {
+  display: flex !important;
+}
+.mainbody {
+  display: block;
+  justify-items: center;
+}
+
+.headBox {
+  text-align: center;
+  padding: 15px;
+}
+
+.mainBox {
+  display: flex;
+  margin-top: 15px;
+}
+
+.seperateCards {
+  margin-right: 55px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mainbody {
+    display: block;
+    justify-items: center;
+  }
+
+  .mainBox {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .seperateCards {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}

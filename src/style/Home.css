@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+* {
+  font-family: "Special Elite", cursive !important;
+}
+
+.homeBody {
+  display: flex !important;
+}
+
+.heroBody {
+  text-align: justify;
+  margin-top: 15px !important;
+}
+
+.heroImage {
+  width: 410px;
+  height: 410px;
+  margin-left: 60px;
+}
+
+.heroButton {
+  padding: 10px !important;
+  margin-top: 5% !important;
+  margin-left: 40% !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .homeBody {
+    display: block !important;
+  }
+
+  .heroImage {
+    width: 210px !important;
+    height: 210px !important;
+    margin-left: 30px !important;
+  }
+
+  .heroButton {
+    padding: 10px !important;
+    margin-top: 5% !important;
+    margin-left: 20% !important;
+  }
+}
